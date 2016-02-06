@@ -1,28 +1,29 @@
-<com.androidhive.dashboard.DashboardLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.androidhive.dashboard.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="1"
-    android:background="#f8f9fe" >
+    android:background="#dedede"
+    android:padding="5dp" >
+
 	<!--  News Feed Button -->
+
     <Button
-        android:id="@+id/btn_news_feed"
+        android:id="@+id/btn_restauranstAndProducts"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_newsfeed"
-        android:text="News Feed" />
+        android:drawableTop="@drawable/btn_restaurant" />
     
 	<!--  Friends Button -->
+
     <Button
-        android:id="@+id/btn_friends"
+        android:id="@+id/btn_suppportedProducts"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_friends"
-        android:text="Friends" />
+        android:drawableTop="@drawable/btn_supported" />
     
 	<!--  Messages Button -->
+
     <Button
-        android:id="@+id/btn_messages"
+        android:id="@+id/btn_products"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_messages"
-        android:text="Messages" />
+        android:drawableTop="@drawable/btn_products" />
     
 </com.androidhive.dashboard.DashboardLayout>

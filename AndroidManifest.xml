@@ -23,17 +23,17 @@
         <!-- News Feed Activity -->
         <activity 
             android:theme="@android:style/Theme.NoTitleBar"
-            android:name="com.androidhive.dashboard.NewsFeedActivity" ></activity>
+            android:name="com.androidhive.dashboard.RestaurantsActivity" ></activity>
 
         <!-- Friends Activity -->
         <activity 
             android:theme="@android:style/Theme.NoTitleBar"
-            android:name="com.androidhive.dashboard.FriendsActivity" ></activity>
+            android:name="com.androidhive.dashboard.SupportedProductsActivity" ></activity>
 
         <!-- Messages Activity -->
         <activity 
             android:theme="@android:style/Theme.NoTitleBar"
-            android:name="com.androidhive.dashboard.MessagesActivity" ></activity>
+            android:name="com.androidhive.dashboard.ProductsActivity" ></activity>
 
     </application>
 
