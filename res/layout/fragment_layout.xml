@@ -2,7 +2,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="1"
-    android:background="#dedede"
+    android:background="@drawable/actionbar_background"
     android:padding="5dp" >
 
 	<!--  News Feed Button -->
